@@ -1,0 +1,159 @@
+.pageMain {
+  display: flex;
+  align-items: center;
+}
+.leftMain {
+  width: 25%;
+  height: 100vh;
+  background-color: rgb(240, 240, 240);
+  overflow: auto;
+}
+.rightMain {
+  width: 75%;
+  height: 100vh;
+  overflow: auto;
+}
+.header {
+  background-color: var(--white-color);
+  width: 100%;
+  height: 80px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoMian {
+  width: 45px;
+  height: 35px;
+}
+.logoMian img {
+  width: 100%;
+  height: 100%;
+}
+.sideLogoMain {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+.sideLogoMain h3 {
+  margin-bottom: 0;
+  color: var(--black-color);
+  font-size: 23px;
+  font-family: "poppin-medium";
+}
+.sideLogoMain h3 span {
+  color: var(--main-color);
+  font-size: 20px;
+}
+
+.menuMain {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0 10px 40px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 0 40px 40px 0;
+}
+.menuMain p {
+  margin-bottom: 0;
+  font-size: 20px;
+  color: var(--heading-color);
+}
+.content {
+  padding: 20px;
+}
+.activeMenu {
+  background-color: #434242;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0 10px 40px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 0 40px 40px 0;
+}
+.activeMenu p {
+  margin-bottom: 0;
+  font-size: 20px;
+  color: var(--white-color);
+}
+.rightHeader {
+  justify-content: end;
+  padding-right: 20px;
+}
+.rightHeader div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.rightHeader div h3 {
+  color: var(--heading-color);
+  font-size: 23px;
+  margin-bottom: 0;
+}
+.rightHeader div img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top center;
+}
+.menuBar {
+  margin-left: 20px;
+  cursor: pointer;
+  display: none !important;
+}
+@media screen and (max-width: 385px) {
+  .header {
+    height: 115px;
+  }
+  .rightHeader div {
+    flex-direction: column;
+    gap: 0;
+  }
+  .rightHeader {
+    justify-content: center !important;
+  }
+  .rightHeader h3 {
+    font-size: 18px !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+}
+@media screen and (max-width: 991px) {
+  .menuBar {
+    display: block !important;
+    margin-left: 250px;
+    transition: 0.9s all;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .rightHeader {
+    justify-content: end;
+    padding-right: 0;
+  }
+  .leftMain {
+    position: absolute;
+    width: 250px;
+    margin-left: -300px;
+    transition: 0.9s all;
+    z-index: 1;
+  }
+  .rightMain {
+    width: 100%;
+  }
+  .overFlow {
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    /* z-index: -1; */
+    position: absolute;
+  }
+}

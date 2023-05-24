@@ -1,0 +1,56 @@
+.reviewsCard {
+  background-color: var(--white-color);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 20px;
+  padding: 30px 50px;
+  min-height: 224px;
+  height: 100%;
+}
+.ratingMain svg {
+  width: 20px !important;
+  height: 20px !important;
+}
+.ratingMain p {
+  font-family: "poppin-medium" !important;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.ratingMain p span {
+  color: var(--main-color);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.imageMain {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+.imageMain img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 50%;
+}
+.rightMian h5 {
+  margin-bottom: 0 !important ;
+}
+.commentDiv {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 425px) {
+  .reviewsCard {
+    padding: 30px 30px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .reviewsCard {
+    padding: 20px 20px;
+  }
+}

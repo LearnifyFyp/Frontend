@@ -1,0 +1,49 @@
+table {
+  border: none;
+}
+tr {
+  border-style: unset;
+}
+th {
+  background-color: var(--main-color) !important;
+  padding: 20px 10px !important;
+  color: var(--white-color);
+  text-align: center;
+}
+td {
+  padding: 20px 10px !important;
+  text-align: center;
+}
+tbody tr {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-bottom: 50px;
+}
+.header {
+  margin-bottom: 20px;
+}
+.pageMain {
+  height: calc(100vh - 120px);
+  overflow: auto;
+}
+.pageMain::-webkit-scrollbar {
+  display: none;
+}
+.roleForAdmin {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.roleForAdmin span {
+  cursor: pointer;
+  background-color: var(--main-color);
+  border-radius: 3px;
+  padding: 2px 10px 6px 10px;
+}
+.elipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}

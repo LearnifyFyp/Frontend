@@ -1,0 +1,17 @@
+.noData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  text-align: center;
+}
+.noData div img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.noData h5 {
+  margin-top: 10px;
+  color: var(--heading-color);
+}

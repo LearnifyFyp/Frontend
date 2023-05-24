@@ -1,0 +1,16 @@
+.inputContainer label {
+  font-family: "poppin-regular";
+  margin-bottom: 5px;
+}
+.inputMainWithIcon {
+  position: relative;
+}
+.inputMainWithIcon textarea {
+  border: none;
+  background: var(--white-color);
+  padding: 12px 0px 12px 25px;
+  outline: none;
+  width: 100%;
+  font-family: "poppin-regular";
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

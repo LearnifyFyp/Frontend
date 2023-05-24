@@ -1,0 +1,42 @@
+.teamCard {
+  background-color: var(--white-color);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 15px;
+  cursor: pointer;
+}
+.teamCard p {
+  margin-bottom: 0;
+}
+.teamCard h6 {
+  margin-top: 10px;
+}
+.imagemMain {
+  height: 200px;
+}
+.imagemMain img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+.description {
+  font-size: 13px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.basic {
+  text-align: center;
+}
+.btnMain {
+  text-align: center;
+  margin-top: 10px;
+}
+.btnMain button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}

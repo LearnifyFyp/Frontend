@@ -1,0 +1,29 @@
+.UpdateProfileMain {
+  padding: 50px 200px;
+}
+.updateBtn {
+  text-align: center;
+}
+.dltBtnMain {
+  text-align: right;
+}
+.phoneInputMain label {
+  font-family: "poppin-regular";
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .UpdateProfileMain {
+    padding: 50px 100px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .UpdateProfileMain {
+    padding: 50px 40px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .UpdateProfileMain {
+    padding: 50px 10px;
+  }
+}

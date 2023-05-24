@@ -1,0 +1,11 @@
+.maim button {
+  width: 100%;
+  margin-top: 20px;
+}
+.maim {
+  text-align: center;
+}
+.maim h4 {
+  font-size: 27px !important;
+  margin-top: 20px;
+}

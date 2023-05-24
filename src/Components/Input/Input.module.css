@@ -1,0 +1,34 @@
+.inputContainer label {
+  font-family: "poppin-regular";
+  margin-bottom: 5px;
+}
+.inputMainWithIcon {
+  position: relative;
+}
+.inputMainWithIcon input {
+  border: none;
+  background: var(--white-color);
+  padding: 12px 0px 12px 25px;
+  outline: none;
+  width: 100%;
+  font-family: "poppin-regular";
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.inputMainWithIcon input::placeholder {
+  font-size: 14px;
+}
+.leftIconMain {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-size: 16px;
+  color: var(--text-color);
+}
+.eyeicon {
+  position: absolute;
+  right: 10px;
+  font-size: 22px;
+  top: 13px;
+  color: var(--black-color);
+  cursor: pointer;
+}

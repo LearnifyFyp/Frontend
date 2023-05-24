@@ -1,0 +1,351 @@
+.heroSectinMain {
+  margin: 50px 0;
+}
+.monthlyRow {
+  margin-top: 4rem;
+}
+.heroSectinMain h2 {
+  font-size: 40px;
+}
+.heroSectinMain h2 span {
+  color: var(--main-color);
+}
+.heroSectinMain p {
+  margin: 20px 0;
+  font-size: 15px;
+}
+.heroLeftCol button {
+  border-radius: 5px;
+}
+.imageMain {
+  height: 410px;
+}
+.imageMain img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+.courseSection {
+  margin: 80px 0;
+}
+.courseSection h1 {
+  text-align: center;
+}
+.courseSection .courseText {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.courseSection span {
+  color: var(--main-color);
+}
+
+.noOfUsersSection {
+  margin: 100px 0;
+}
+.noOfUsersMain {
+  background-color: var(--white-color);
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.noOfUsersMain div {
+  background-color: var(--main-color);
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+.noOfUsersMain div h4 {
+  font-size: 28px;
+  color: var(--white-color);
+}
+.noOfUsersMain div p {
+  font-family: "poppin-bold";
+  margin-bottom: 0;
+  font-size: 20px;
+  color: var(--white-color);
+}
+.viewAllBtn {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* ddddddddddddd */
+.fullImageMain {
+  height: 500px;
+}
+.content {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 650px;
+  margin-top: 30px;
+}
+.content button {
+  border-radius: 8px;
+}
+.fullImageMain img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+.circleMain {
+  width: 100%;
+}
+.circle {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 0 auto;
+  margin-top: -38px;
+}
+.circle img {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+.monthlyRow {
+  background-color: var(--white-color);
+  padding: 40px 0;
+  margin-bottom: 50px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+/* ddddddddddddd */
+.comfortMain {
+  text-align: center;
+}
+.comfortMain h5 {
+  color: #43474d !important;
+  font-family: "poppin-medium";
+  font-size: 20px;
+}
+.comfortMain p {
+  color: rgb(147, 147, 147);
+}
+.comfortMain .icon {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.comportIcon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: -65px;
+  margin-bottom: 30px;
+}
+.comportHeader {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.comfortMainTwo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  transition: 0.5s all ease-in;
+}
+.comfortMainTwo:hover.comfortMainTwo h5 {
+  color: var(--main-color) !important;
+  transition: 0.5s all ease-in-out;
+}
+.degreesRow {
+  row-gap: 50px;
+}
+
+.comfortMainTwo h5 {
+  color: #43474d !important;
+  font-family: "poppin-medium";
+  font-size: 20px;
+}
+.comfortMainTwo p {
+  color: rgb(147, 147, 147);
+}
+.comfortMainTwo .icon {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.focusMain {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.categoryMain {
+  background-color: var(--white-color);
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 50px 30px;
+}
+.degreesCol:nth-child(1),
+.degreesCol:nth-child(2),
+.degreesCol:nth-child(3) {
+  border-bottom: 2px solid rgb(224, 224, 224);
+  padding-bottom: 30px;
+}
+
+.information-list {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 25px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.information-list {
+  list-style: none;
+}
+.information-list__card h3 {
+  font-size: 1.5rem;
+}
+.information-list__card p {
+  font-size: 1rem;
+  color: gray;
+}
+.information-list__card {
+  padding: 1rem;
+}
+.information-list__heading {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  justify-content: center;
+}
+.information-list__stars ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.4rem;
+  padding: 0;
+  margin: 0;
+}
+
+.information-list__stars li {
+  background: var(--main-color);
+  padding: 0.2rem;
+}
+.information-list__stars li:last-child {
+  background: rgb(210, 206, 206);
+}
+.information-list__description {
+  margin-top: 0.5rem;
+}
+.information-list__description p {
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 991px) {
+  .heroLeftCol {
+    margin-bottom: 40px;
+  }
+  .degreesCol {
+    border-bottom: 2px solid rgb(224, 224, 224);
+    padding-bottom: 30px;
+  }
+  .degreesCol:nth-child(5),
+  .degreesCol:nth-child(6) {
+    border-bottom: unset;
+  }
+}
+@media screen and (max-width: 768px) {
+  .noOfUsersMain div h4 {
+    font-size: 20px;
+  }
+
+  .courseSection {
+    padding: 0 10px;
+  }
+  .fullImageMain {
+    height: 400px;
+  }
+  .degreesCol:nth-child(5) {
+    border-bottom: 2px solid rgb(224, 224, 224);
+    padding-bottom: 30px;
+  }
+  .degreesCol:nth-child(6) {
+    border-bottom: unset;
+  }
+}
+@media screen and (max-width: 500px) {
+  .imageMain {
+    height: 300px;
+  }
+  .noOfUsersMain {
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    padding: 20px 0;
+  }
+  .fullImageMain {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .cardColumn {
+    padding: 0 50px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .cardColumn {
+    padding: 0 30px;
+  }
+  .comfortMainTwo h5 {
+    font-size: 17px !important;
+  }
+  .comfortMainTwo {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 344px) {
+  .content h4 {
+    font-size: 23px !important;
+  }
+}
+@media screen and (max-width: 375px) {
+  .imageMain {
+    height: 250px;
+  }
+  .cardColumn {
+    padding: 0 0px;
+  }
+  .fullImageMain {
+    height: 250px;
+  }
+}
+
+@media (max-width: 354px) {
+  .information-list {
+    justify-content: center;
+  }
+}

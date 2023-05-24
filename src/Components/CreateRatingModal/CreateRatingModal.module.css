@@ -1,0 +1,15 @@
+.ratingMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.ratingMain svg {
+  width: 30px !important;
+  height: 30px !important;
+}
+.btnMain button {
+  width: 100%;
+  margin-top: 20px;
+}

@@ -1,0 +1,15 @@
+.main {
+  text-align: center;
+}
+.main p {
+  font-size: 20px;
+}
+.btnMain {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  justify-content: center;
+}
+.btnMain button:last-child {
+  background-color: var(--black-color);
+}

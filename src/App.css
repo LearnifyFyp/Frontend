@@ -1,0 +1,184 @@
+:root {
+  --main-color: #0ea2bd;
+  --heading-color: #485664;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --text-color: #6f757b;
+  --light-gray: #dddddd;
+  --light-black-color: #0a0a0a;
+}
+@font-face {
+  font-family: "poppin-bold";
+  src: url("./Assets/Font/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "poppin-semiBold";
+  src: url("./Assets/Font/Poppins/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: "poppin-medium";
+  src: url("./Assets/Font/Poppins/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: "poppin-regular";
+  src: url("./Assets/Font/Poppins/Poppins-Regular.ttf");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body h1 {
+  font-size: 60px;
+  font-weight: 500;
+  font-family: "poppin-bold";
+}
+body h2 {
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "poppin-bold";
+}
+body h3 {
+  font-size: 42px;
+  font-weight: 500;
+  font-family: "poppin-bold";
+}
+body h4 {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "poppin-bold";
+}
+body h5 {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "poppin-bold";
+}
+body h6 {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "poppin-bold";
+}
+
+body p {
+  font-size: 18px;
+  font-family: "poppin-regular";
+}
+.p-17 {
+  font-size: 17px;
+  font-family: "poppin-regular";
+}
+.p-16 {
+  font-size: 16px;
+  font-family: "poppin-regular";
+}
+a {
+  text-decoration: none !important;
+  font-family: "poppin-regular";
+}
+
+.custom_container {
+  max-width: 70%;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.t-t-c {
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 1540px) {
+  body h1 {
+    font-size: 55px;
+  }
+  body h2 {
+    font-size: 45px;
+  }
+  body h3 {
+    font-size: 38px;
+  }
+  body h4 {
+    font-size: 33px;
+  }
+  body h5 {
+    font-size: 22px;
+  }
+  body h6 {
+    font-size: 20px;
+  }
+  body p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  body h1 {
+    font-size: 50px;
+  }
+  body h2 {
+    font-size: 40px;
+  }
+  body h3 {
+    font-size: 34px;
+  }
+  body h4 {
+    font-size: 30px;
+  }
+  body h5 {
+    font-size: 20px;
+  }
+  body h6 {
+    font-size: 18px;
+  }
+  body p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body h1 {
+    font-size: 46px;
+  }
+  body h2 {
+    font-size: 36px;
+  }
+  body h3 {
+    font-size: 31px;
+  }
+  body h4 {
+    font-size: 27px;
+  }
+  body h5 {
+    font-size: 19px;
+  }
+  body h6 {
+    font-size: 17px;
+  }
+  body p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  body h1 {
+    font-size: 42px;
+  }
+  body h2 {
+    font-size: 30px;
+  }
+  body h3 {
+    font-size: 28px;
+  }
+  body h4 {
+    font-size: 25px;
+  }
+  body h5 {
+    font-size: 18px;
+  }
+  body h6 {
+    font-size: 16px;
+  }
+  body p {
+    font-size: 15px;
+  }
+}

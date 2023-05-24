@@ -1,0 +1,29 @@
+.pageMain {
+  margin: 100px 0;
+}
+.pageMain h4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .cardColumn {
+    padding: 0 70px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cardColumn {
+    padding: 0 50px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .cardColumn {
+    padding: 0 30px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .cardColumn {
+    padding: 0 0px;
+  }
+}

@@ -1,0 +1,123 @@
+.pageMain {
+  display: flex;
+  height: 100vh;
+}
+.leftMain {
+  flex-basis: 50%;
+  background-color: var(--main-color);
+  padding: 0px;
+  overflow: auto;
+}
+.leftMain::-webkit-scrollbar {
+  display: none;
+}
+.rightMain {
+  flex-basis: 50%;
+  padding: 30px;
+  overflow: auto;
+}
+.rightMain::-webkit-scrollbar {
+  display: none;
+}
+.headerMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoMian {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+}
+.logoMian img {
+  width: 100%;
+  height: 100%;
+}
+.sideLogoMain {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.sideLogoMain h3 {
+  margin-bottom: 0;
+  color: var(--black-color);
+  font-size: 23px;
+  font-family: "poppin-medium";
+}
+.sideLogoMain h3 span {
+  color: var(--main-color);
+  font-size: 20px;
+}
+
+.alreadyMain {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.alreadyMain a {
+  text-decoration: underline !important;
+  color: var(--black-color);
+}
+.rightMain h2 {
+  margin: 40px 0;
+}
+.btnMain {
+  width: 100%;
+  margin-top: 10px;
+}
+.btnMain button {
+  width: 100%;
+  padding: 11px 0;
+}
+
+.leftImageMain {
+  width: 100%;
+  height: 100vh;
+}
+.leftImageMain img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.roleMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.roleMain span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.roleMain span input[type="radio"] {
+  accent-color: var(--main-color);
+}
+.phoneInputMain label {
+  font-family: "poppin-regular";
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 1070px) {
+  .headerMain {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .leftMain {
+    display: none;
+  }
+  .rightMain {
+    flex-basis: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .alreadyMain {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

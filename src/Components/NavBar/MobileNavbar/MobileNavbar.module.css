@@ -1,0 +1,46 @@
+.logoMian {
+  width: 180px;
+  height: 60px;
+}
+.logoMian img {
+  width: 100%;
+  height: 100%;
+}
+.sideLogoMain {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+.sideLogoMain h3 {
+  margin-bottom: 0;
+  color: var(--white-color);
+  font-size: 23px;
+  font-family: "poppin-medium";
+}
+.sideLogoMain h3 span {
+  color: var(--main-color);
+  font-size: 20px;
+}
+.logoBg {
+  background-color: #165560;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.logoHeadColor {
+  color: var(--heading-color) !important;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+.activeMain {
+  background-color: #d7e9ec;
+}
+.activeMain li div div span {
+  font-family: "poppin-medium" !important;
+}

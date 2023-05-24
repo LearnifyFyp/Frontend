@@ -1,0 +1,31 @@
+.sectioMain {
+  margin: 80px 0;
+}
+.ourTeam {
+  margin-bottom: 100px;
+}
+.ourTeam h4:first-child,
+.ourTeam p:nth-child(2) {
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  .teamCol {
+    padding: 0 100px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .teamCol {
+    padding: 0 60px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .teamCol {
+    padding: 0 30px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .teamCol {
+    padding: 0 10px;
+  }
+}

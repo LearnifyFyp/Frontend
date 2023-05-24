@@ -1,0 +1,78 @@
+.mainSection {
+  padding: 14px 0;
+  background-color: var(--white-color);
+}
+.navBarMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.navBarMain ul {
+  margin-bottom: 0;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.navBarMain ul li {
+  display: inline;
+}
+.navBarMain ul li a {
+  color: var(--black-color);
+  text-transform: capitalize;
+}
+.logoMian {
+  width: 180px;
+  height: 60px;
+}
+.logoMian img {
+  width: 100%;
+  height: 100%;
+}
+.sideLogoMain {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.sideLogoMain h3 {
+  margin-bottom: 0;
+  color: var(--black-color);
+  font-size: 23px;
+  font-family: "poppin-medium";
+}
+.sideLogoMain h3 span {
+  color: var(--main-color);
+  font-size: 20px;
+}
+.wishLishIcon {
+  border: 1px solid var(--white-color);
+  padding: 4px 8px;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+}
+.wishLishIcon span {
+  background-color: red;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  right: 0;
+  color: var(--white-color);
+  font-size: 12px;
+  padding: 2px;
+}
+.activeClass {
+  color: var(--main-color) !important;
+  font-family: "poppin-medium";
+}
+
+.downArrow {
+  position: absolute;
+  right: 5px;
+  top: 30px;
+}

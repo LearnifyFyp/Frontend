@@ -1,0 +1,214 @@
+.pageMain {
+  margin: 60px 0;
+}
+.imageMain {
+  height: 400px;
+  border-radius: 20px;
+}
+.imageMain img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 20px;
+}
+.rightContentMain div:nth-child(1) {
+  display: flex;
+  margin-bottom: 8px;
+  align-items: center;
+}
+.btnRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 10px;
+}
+.rightContentMain div button {
+  border-radius: 8px;
+  width: 200px;
+}
+.rightContentMain div:nth-child(1) button:last-child {
+  background-color: transparent;
+  color: var(--main-color);
+  border: 2px solid var(--main-color);
+}
+
+.description {
+  margin-top: 40px;
+}
+.description p {
+  color: var(--text-color);
+}
+.description h4 {
+  font-family: "poppin-medium" !important;
+}
+
+.ratingMain svg {
+  width: 35px !important;
+  height: 35px !important;
+}
+.ratingMain p {
+  font-family: "poppin-medium" !important;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.reviewsMain h3 {
+  font-family: "poppin-medium" !important;
+}
+.ratingMain p span {
+  color: var(--main-color);
+}
+.available {
+  text-align: left !important;
+}
+.meetingRow {
+  margin: 30px 50px;
+  row-gap: 20px;
+}
+.btnMain button {
+  width: 100%;
+}
+.startDateMain {
+  display: flex;
+  justify-content: space-between;
+}
+.startDateMain span {
+  font-family: "poppin-medium" !important;
+}
+
+.languageMain p span:last-child {
+  margin-right: 10px;
+}
+.languageMain p div {
+  display: flex;
+  gap: 20px;
+}
+.languageMain p div span {
+  text-transform: capitalize;
+}
+.nameMain {
+  display: flex;
+  justify-content: space-between;
+}
+.nameMain h5 span {
+  font-family: "poppin-medium" !important;
+  font-size: 18px;
+}
+.certification {
+  margin-top: 25px;
+}
+.certification h4 {
+  font-family: "poppin-medium" !important;
+}
+.subjectMain h4 {
+  font-family: "poppin-medium" !important;
+}
+.certification span {
+  margin-right: 10px;
+}
+.meetingLink {
+  margin-top: 25px;
+}
+.fieldMain {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.fieldMain h6 {
+  cursor: pointer;
+  font-family: "poppin-medium" !important;
+  text-transform: capitalize;
+  border-bottom: 3px solid var(--main-color);
+  padding-bottom: 8px;
+}
+.fieldMain2 {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.fieldMain2 h6:first-child {
+  cursor: pointer;
+  font-family: "poppin-medium" !important;
+  text-transform: capitalize;
+}
+.dateInner {
+  cursor: pointer;
+  font-family: "poppin-medium" !important;
+  text-transform: capitalize;
+  border-bottom: 3px solid var(--main-color);
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+.fieldMain2 p {
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid rgb(205, 205, 205);
+  border-radius: 10px;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 8px 20px;
+  margin-bottom: 5px;
+}
+.timeDUrationMain {
+  display: flex;
+  gap: 30px;
+}
+.timeDUrationMain span {
+  font-family: "poppin-medium" !important;
+  margin-left: 10px;
+}
+.disabledTime {
+  /* background-color: red !important; */
+  pointer-events: none;
+  color: rgb(209, 209, 209);
+}
+.btnMain {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.goToTop {
+  margin-top: -50px;
+}
+@media screen and (max-width: 991px) {
+  .imageMain {
+    margin-bottom: 25px;
+  }
+  .meetingRow {
+    margin: 30px 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .meetingRow {
+    margin: 30px 0px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .goToTop {
+    margin-top: 0px;
+  }
+  .rightContentMain div:nth-child(1) {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .imageMain {
+    height: 320px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .imageMain {
+    height: 280px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .imageMain {
+    height: 240px;
+  }
+}

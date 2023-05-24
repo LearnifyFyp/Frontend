@@ -1,0 +1,48 @@
+.header {
+  /* text-align: center; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 20px;
+}
+.header button {
+  margin-top: 20px;
+}
+.header input {
+  width: 100%;
+}
+.header div:first-child {
+  /* width: 500px; */
+}
+.render {
+  border: 2px solid var(--main-color);
+  padding: 10px 20px;
+  width: fit-content;
+  border-radius: 10px;
+  position: relative;
+}
+.render span {
+  position: absolute;
+  top: -4px;
+  right: 2px;
+  cursor: pointer;
+}
+.render p {
+  margin-bottom: 0;
+}
+.renderMain {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+.main label {
+  font-family: "poppin-regular";
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+}
